@@ -24,7 +24,7 @@ mybot.on("message", function(message) {
 //long comands 
 mybot.on("message", function(message){
 
-            if( message.content === "!my_avatar" ){
+            if( message.content === "+my_avatar" ){
 
         var usersAvatar = message.sender.avatarURL;
 
